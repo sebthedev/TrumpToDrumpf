@@ -29,6 +29,7 @@ function handleText(textNode)  {
 
     v = v.replace(/\bTrump\b/g, "Drumpf");
 		v = v.replace(/\btrump\b/g, "drumpf");
+		v = v.replace(/\bTRUMP\b/g, "DRUMPF");
 
 	textNode.nodeValue = v;
 }
